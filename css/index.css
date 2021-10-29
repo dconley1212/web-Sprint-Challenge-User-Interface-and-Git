@@ -27,6 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+    
 }
 body {
 	line-height: 1;
@@ -71,6 +72,26 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: flex-end;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: .9em;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: #4f4f4f;
+    padding: ;
+}
+
+.highway{
+    margin-bottom: 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,19 +120,50 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: stretch;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: center;
 }
+#one {
+    background-color: teal;
+}
 
+#two {
+    background-color: gold;
+}
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+#five {
+    background-color: crimson;
+}
+#six {
+    background-color: forestgreen;
+}
+#seven {
+    background-color: darkorchid;
+}
+#eight {
+    background-color: hotpink;
+}
+#nine {
+    background-color: indigo;
+}
+#ten {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
