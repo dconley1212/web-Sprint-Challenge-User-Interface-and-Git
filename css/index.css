@@ -196,3 +196,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.top-paragraph {
+    margin: 2% 2%;
+}
+.main-body {
+    display: flex;
+    justify-content: center;
+    border-top: 2px dotted #4f4f4f;
+}
+.upper-left{
+    margin: 2%;
+    padding: .5%;
+}
+.upper-right{
+    margin:2%;
+    padding: .5%;
+}
+.ul-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
