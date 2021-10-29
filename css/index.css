@@ -203,19 +203,34 @@ footer nav a {
     display: flex;
     justify-content: center;
     border-top: 2px dotted #4f4f4f;
+    align-content: center;
 }
-.upper-left{
+.main-body .main-img {
+    padding-top: 7%;
+    padding-left: 2%;
+}
+
+.main-text {
+    padding-top: 1%;
     margin: 2%;
-    padding: .5%;
+    border-radius: 70%;
 }
-.upper-right{
-    margin:2%;
-    padding: .5%;
+
+.main-text p {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.ul-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.main-text button {
+    padding-top: 2%;
+    width: 7rem;
 }
+    
+.bottom-text {
+    padding-top: 10%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+}
+
+
 
 
